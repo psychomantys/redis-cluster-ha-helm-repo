@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  redis:
+  - apiVersion: v1
+    appVersion: 5.0.5
+    created: "2024-02-22T05:54:56.406521949Z"
+    description: Highly available Kubernetes implementation of Redis
+    digest: a97fd51a8e4c1572b7f325d3af579a38aa98f14971d06a1ab3bd36c2b95fcb4b
+    home: http://redis.io/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: mallakimahdi@gmail.com
+      name: mahdi-mallaki
+    name: redis
+    sources:
+    - https://redis.io/download
+    - https://github.com/mlkmhd/redis-cluster-ha
+    urls:
+    - redis-3.7.3.tgz
+    version: 3.7.3
+generated: "2024-02-22T05:54:56.406532589Z"
