@@ -5,6 +5,43 @@ entries:
       artifacthub.io/changes: |
         - kind: changed
           description: Represent cluster credentials as a map
+        - kind: added
+          description: Add option to disable API checks in all servicemonitor
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v2.11.2
+    created: "2024-05-31T04:15:29.19563342Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.26.1
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 07c411fbbe725a335fa8ab969c40365eb5ee81afab5802f4e64bbddc9f2ab932
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-7.0.1.tgz
+    version: 7.0.1
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Represent cluster credentials as a map
       artifacthub.io/signKey: |
         fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
         url: https://argoproj.github.io/argo-helm/pgp_keys.asc
@@ -58,4 +95,4 @@ entries:
     urls:
     - redis-3.7.3.tgz
     version: 3.7.3
-generated: "2024-05-31T00:34:54.543822417Z"
+generated: "2024-05-31T04:15:29.195645482Z"
