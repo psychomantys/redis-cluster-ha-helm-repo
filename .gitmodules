@@ -7,3 +7,4 @@
 [submodule "submodules/argocd"]
 	path = submodules/argocd
 	url = https://github.com/psychomantys/argo-helm
+	branch = patch-1
