@@ -1,3 +1,6 @@
 [submodule "redis-cluster-ha"]
 	path = redis-cluster-ha
 	url = https://github.com/mlkmhd/redis-cluster-ha
+[submodule "argocd"]
+	path = argocd
+	url = https://github.com/psychomantys/argo-helm
